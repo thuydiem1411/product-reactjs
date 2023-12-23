@@ -15,11 +15,11 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route index element={<Home/>}/>
-        <Route path="about" element={<About/>}/>
-        <Route path="contact" element={<Contact/>}/>
-        <Route path="new" element={<New/>}/>
-        <Route path="plans" element={<Plans/>}/>
-        <Route path="product" element={<Product/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/new" element={<New/>}/>
+        <Route path="/plans" element={<Plans/>}/>
+        <Route path="/product" element={<Product/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>

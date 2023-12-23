@@ -31,7 +31,7 @@ body {
   color: var(--color-gray-200S);
   line-height: 1.5rem;
   overflow-x: hidden;
-  background-color: var(--color-gray-600);
+  background-color: var(--color-gray-600) url(./images/bg_texture.png);
 }
 .container {
   width: var(--container-width-lg);
@@ -208,6 +208,6 @@ opacity: 0.5;
     padding: 3rem 0 ;
   }
   .header__content p{
-    font-size: 0.85;
+    font-size: 0.85rem;
   }
 }

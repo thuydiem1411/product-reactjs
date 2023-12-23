@@ -12,6 +12,10 @@ export const links = [
         path: '/about'
     },
     {
+        name: "Contact",
+        path: '/contact'
+    },
+    {
         name: "New",
         path: '/new'
     },
@@ -22,11 +26,8 @@ export const links = [
     {
         name: "Product",
         path: '/product'
-    },
-    {
-        name: "Contact",
-        path: '/contact'
     }
+    
 ]
 
 

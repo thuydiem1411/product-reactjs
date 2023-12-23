@@ -38,6 +38,7 @@
   background: linear-gradient(75deg, rgb(225, 75, 100), transparent);
   border-radius: 50%;
   position: absolute;
+  filter: blur(15px);
   /* right: 11rem;
     bottom: 90px; */
   transition: var(--transition);
@@ -45,9 +46,8 @@
 .main__header-imge {
   position: relative;
 }
-.main__header-right:hover .main__header-circle {
-  filter: blur(15px);
-}
+
+
 /* ====================PROGRAMS================= */
 .programs {
   margin-top: 4rem;

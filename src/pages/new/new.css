@@ -1,0 +1,29 @@
+.new__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.new__container article{
+    border: 2rem solid transparent;
+    transition: var(--transition);
+}
+.new__container article:hover{
+    border-color: pink;
+}
+@media screen and (max-width:1024px) {
+    .new__container{
+        grid-template-columns: 1fr 1fr;
+        gap:2rem;
+    }
+    .new__container article{
+        border: 0;
+    }
+}
+@media screen and (max-width:600px){
+    .new__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .new__container article{
+        border: 1rem;
+    }
+}
